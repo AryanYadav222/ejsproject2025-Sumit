@@ -7,9 +7,9 @@ const cloudinary = require('cloudinary').v2;
         let result;
         if(req.file) {
             cloudinary.config({
-                cloud_name: "dwmgjplnv",
-                api_key: "538694639438369",
-                api_secret: '98S8TYBa7l5JSz69JZVJN0ybtFc'
+                cloud_name: "dpxgexruv",
+                api_key: "664997482446132",
+                api_secret: 'hhD23YZw_HFFjfPXyXzTtAz4QHk'
             })
              result = await cloudinary.uploader.upload(req.file.path);
            // console.log(result);
